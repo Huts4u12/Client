@@ -1,0 +1,117 @@
+import { client } from "./axiosClient";
+
+
+export function sendOTP(payLoad:any){
+    return client.post('/auth/send-otp', payLoad);
+}
+
+export function verifyOTP(payLoad:any){
+    return client.post('/auth/verify-otp', payLoad);
+}
+
+export function Signup(payLoad:any){
+    return client.post('/auth/create', payLoad);
+}
+export function getPortfolioDetails(phoneNumber: any) {
+    return client.get(`/User/search-one-record`, { params: { phoneNumber } });
+};
+
+export function verifyPayment (payload:any) {
+    return client.post(`/razorpay/verify`, payload);
+};
+export function createOrder (payload:any) {
+    return client.post(`/razorpay/orders`, payload);
+  };
+  
+
+export function hotelRegister(payLoad:any){
+    return client.post('/auth/register', payLoad);
+}
+
+export function SignIn(payLoad:any){
+    return client.post('/auth/login', payLoad);
+}
+
+export function hotelPost(payLoad:any){
+    return client.post('/Hotel/create', payLoad);
+}
+export function roomPost(payLoad:any){
+    return client.post('/Room/insertMany', payLoad);
+}
+
+export function docsUpload(payLoad:any) {
+    return client.post("/auth/upload-doc", payLoad);
+}
+
+export function getMyAllHotels(payLoad:any){
+    return client.post('/Hotel/search-record', payLoad);
+}
+export function getMyAllHotelswithBelongsTo(payLoad:any){
+    return client.post('/Hotel/get-all-record-with-belongs-to', payLoad);
+}
+
+export function getProfile(){
+    return client.get('/auth/profile');
+}
+
+export function getAllHotels(payLoad:any){
+    return client.post('/Hotel/search-record', payLoad);
+}
+export function getAllRooms(payLoad:any){
+    return client.post('/Room/search-record', payLoad);
+}
+
+export function getAllBookingsofMyHotel(payLoad:any){
+    return client.post('/Booking/search-record', payLoad);
+}
+
+export function getAllUser(payLoad:any){
+    return client.post('/User/search-record', payLoad);
+}
+
+export function deleteUser(id:any){
+    return client.delete(`/User/delete-record/${id}`);
+}
+
+export function editUser(payLoad:any){
+    return client.patch('/auth/update-profile', payLoad);
+}
+
+export function editHotel(id:any,payLoad:any){
+    return client.patch(`/Hotel/update-record/${id}`, payLoad);
+}
+
+export function getHotel(id: any) {
+    return client.get(`/Hotel/search-one-record`, { params: { id} });
+};
+
+export function editRoom(id:any,payLoad:any){
+    return client.patch(`/Room/update-record/${id}`, payLoad);
+}
+
+export function postBooking(payLoad:any){
+    return client.post('/Booking/create', payLoad);
+}
+export function getAllMyBookings(payLoad:any){
+    return client.post('/Booking/search-record', payLoad);
+}
+
+export function deleteHotel(id:any){
+    return client.delete(`/Hotel/delete-record/${id}`);
+}
+
+export function createContact(payLoad:any){
+    return client.post('/Contact/create', payLoad);
+}
+
+export function getAllMessage(payLoad:any){
+    return client.post('/Contact/search-record', payLoad);
+}
+
+export function getUserProfile(id:any){
+    return client.get(`/User/get-one-record/${id}`);
+}
+
+export function getHotelByUser(userId: any) {
+    return client.get(`/Hotel/search-one-record`, { params: { userId} });
+};
