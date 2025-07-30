@@ -277,7 +277,7 @@ const Header: React.FC = () => {
                   objectFit: "contain",
                   mb: 1,
                 }}
-                image="https://s3.ap-south-1.amazonaws.com/huts4u.shop/huts4ufinallogo-removebg-preview.png"
+                image={logo}
               />
               {navLinks.map((link) => (
                 <ListItem key={link.label} disablePadding>
