@@ -1,37 +1,34 @@
-export const logoBg =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/logo+bg.png";
+export const logoBg = "https://huts44u.s3.ap-south-1.amazonaws.com/logo+bg.png";
 export const logo =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/compressed_logoo-removebg-preview.png";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/hutlogo-removebg-preview.png";
 export const Chillika =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/chilika.jpg";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/chilika.jpg";
 
-export const Konark =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/konark.jpg";
-export const Dhauli =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/dhauli.jpg";
-export const Puri = "https://s3.ap-south-1.amazonaws.com/huts4u.com/puri.jpg";
+export const Konark = "https://huts44u.s3.ap-south-1.amazonaws.com/konark.jpg";
+export const Dhauli = "https://huts44u.s3.ap-south-1.amazonaws.com/dhauli.jpg";
+export const Puri = "https://huts44u.s3.ap-south-1.amazonaws.com/puri.jpg";
 export const Khandagiri =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/khandagiri.jpg";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/khandagiri.jpg";
 
 export const konarkHero =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/compressed_konark+hero.jpg";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/konark+hero.jpg";
 export const bgHero =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/compressed_bg.jpg";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/bg+(1).jpg";
 export const LoginImage =
   "https://s3.ap-south-1.amazonaws.com/huts4u.com/skyimage.webp";
 
 export const FooterImage =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/footer.webp";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/footer.webp";
 
 export const feature1 =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/feature+1.jpg";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/feature+1.jpg";
 export const feature2 =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/feature+2.jpg";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/feature+2.jpg";
 export const feature3 =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/feature+3.jpg";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/feature+3.jpg";
 export const feature4 =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/feature+4.jpg";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/feature+4.jpg";
 export const Mission =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/missionandvision.webp";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/Our+Mission+%26+Values.jpg";
 export const Community =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/comunityengagement.webp";
+  "https://huts44u.s3.ap-south-1.amazonaws.com/Community+Engagement.jpg";
