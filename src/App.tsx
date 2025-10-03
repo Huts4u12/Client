@@ -15,6 +15,8 @@ import { ToastContainer } from "react-toastify";
 import { Box, CircularProgress } from "@mui/material";
 import color from "./components/color";
 import { logo } from "./Image/Image";
+import Agreement from "./pages/Admin/Agreement";
+import NewAgreement from "./pages/Admin/NewAgreement";
 
 // Lazy load all pages
 const HomePage = React.lazy(() => import("./pages/HomePage"));
@@ -107,6 +109,24 @@ const App: React.FC = () => {
               element={
                 <PrivateRoute
                   component={AdminDashboard}
+                  allowedRoles={["Admin"]}
+                />
+              }
+            />
+            <Route
+              path="/admin/add-agreement"
+              element={
+                <PrivateRoute
+                  component={NewAgreement}
+                  allowedRoles={["Admin"]}
+                />
+              }
+            />
+            <Route
+              path="/agreement"
+              element={
+                <PrivateRoute
+                  component={Agreement}
                   allowedRoles={["Admin"]}
                 />
               }

@@ -115,3 +115,11 @@ export function getUserProfile(id:any){
 export function getHotelByUser(userId: any) {
     return client.get(`/Hotel/search-one-record`, { params: { userId} });
 };
+
+export function addAgreement(payLoad:any){
+return client.post('/Agreement/create', payLoad);
+}
+
+export function getAllAgrement(payLoad:any){
+    return client.post('/Agreement/search-record', payLoad);
+}

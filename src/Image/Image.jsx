@@ -12,10 +12,8 @@ export const Khandagiri =
 
 export const konarkHero =
   "https://huts44u.s3.ap-south-1.amazonaws.com/konark+hero.jpg";
-export const bgHero =
-  "https://huts44u.s3.ap-south-1.amazonaws.com/bg+(1).jpg";
-export const LoginImage =
-  "https://s3.ap-south-1.amazonaws.com/huts4u.com/skyimage.webp";
+export const bgHero = "https://huts44u.s3.ap-south-1.amazonaws.com/bg+(1).jpg";
+export const LoginImage = "https://huts44u.s3.ap-south-1.amazonaws.com/skyimage.jpeg";
 
 export const FooterImage =
   "https://huts44u.s3.ap-south-1.amazonaws.com/footer.webp";
